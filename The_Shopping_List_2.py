@@ -24,8 +24,7 @@ def user_remove_item():
         ("This item {item} is not in your shopping list.")
 
 #Task 3: Add a function that prints out the entire list in a formatted way.
-user_items()
-print("Current shopping list:",shopping_list)
+
 
 
 
