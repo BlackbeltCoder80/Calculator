@@ -9,7 +9,7 @@ def user_list(): #
     item = input( "What would you like to add to your shopping list?:").strip() # strip() removes spaces that a user may 
     if item: # Checks to see if the list is empty. If you are going to have an empty list there needs to be a way to check the list.
         shopping_list.append(item)#The .append allows you to add to the list. that you have empty form the items list by the user. In parentheses tell the it where the list is pulling from.
-        print(f' "{item}" has been added to you list,')
+        print(f' "{item}" has been added to you list.')
     else:
         print("List cant be empty")
 #Task 2: Include a function to remove items from the list.
